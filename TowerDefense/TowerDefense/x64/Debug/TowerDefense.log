@@ -1,0 +1,14 @@
+﻿     Creating library C:\Users\Quentin\Desktop\TowerDefense\x64\Debug\TowerDefense.lib and object C:\Users\Quentin\Desktop\TowerDefense\x64\Debug\TowerDefense.exp
+main.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Delay referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function SDL_main
+MSVCRTD.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol WinMain referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Quentin\Desktop\DevLibrary\SDL2\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Quentin\Desktop\DevLibrary\SDL2\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Quentin\Desktop\DevLibrary\SDL2_image\lib\x86\SDL2_image.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Quentin\Desktop\DevLibrary\SDL2_ttf\lib\x86\SDL2_ttf.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\Quentin\Desktop\TowerDefense\x64\Debug\TowerDefense.exe : fatal error LNK1120: 8 unresolved externals
